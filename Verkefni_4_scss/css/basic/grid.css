@@ -1,0 +1,61 @@
+body {
+  max-width: 60em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "haus" "wrapper" "fotur"; }
+
+body {
+  background-color: #A4B2B1; }
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1em;
+  border-radius: 1em; }
+
+.efni1 {
+  margin-top: 3em; }
+
+.efni2 {
+  margin-top: 3em; }
+
+.efni3 {
+  margin-top: 3em; }
+
+.efni4 {
+  margin-top: 3em; }
+
+header {
+  grid-area: haus; }
+
+.wrapper {
+  grid-area: wrapper; }
+
+.efni1 {
+  grid-area: efni_1; }
+
+.efni2 {
+  grid-area: efni_2; }
+
+.efni3 {
+  grid-area: efni_3; }
+
+.efni4 {
+  grid-area: efni_4; }
+
+footer {
+  grid-area: fotur; }
+
+@media (min-width: 0em) {
+  .wrapper {
+    display: grid;
+    grid-template-areas: "efni_4" "efni_3" "efni_2" "efni_1"; } }
+@media (min-width: 37.5em) {
+  .wrapper {
+    display: grid;
+    grid-template-areas: "efni_1" "efni_3" "efni_2" "efni_4"; } }
+@media (min-width: 60em) {
+  .wrapper {
+    display: grid;
+    grid-template-areas: "efni_1" "efni_2" "efni_3" "efni_4"; } }
+
+/*# sourceMappingURL=grid.css.map */
