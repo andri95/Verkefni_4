@@ -1,0 +1,41 @@
+
+
+@mixin algengt{
+	margin: 0 auto;
+	text-align: center;
+}
+
+body{
+	background-color: $liturEitt;
+	max-width: $breidd;
+	@include algengt;
+}
+.wrapper{
+	background-color: $liturTvo;
+}
+
+
+header{
+	@include algengt;
+	h2{
+		font-size: 30px;
+		text-align: center;
+	}
+	p{
+		font-style: italic;
+		color: $liturTvo;
+		padding: $padding;
+	}
+}
+
+h1{
+	color: $liturEitt;
+	font-size: $leturst;
+	font-family: $letur;
+}
+
+p{
+	content: $strengur;
+}
+
+

@@ -1,0 +1,29 @@
+body {
+  background-color: cyan;
+  max-width: 60em;
+  margin: 0 auto;
+  text-align: center; }
+
+.wrapper {
+  background-color: tomato; }
+
+header {
+  margin: 0 auto;
+  text-align: center; }
+  header h2 {
+    font-size: 30px;
+    text-align: center; }
+  header p {
+    font-style: italic;
+    color: tomato;
+    padding: 1em; }
+
+h1 {
+  color: cyan;
+  font-size: 2em;
+  font-family: monospace; }
+
+p {
+  content: "flottur texti!"; }
+
+/*# sourceMappingURL=style.css.map */
